@@ -14,3 +14,30 @@ padding: 2px;
   border: 1px solid #363062;
   text-align: center;
 }
+#button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rst-btn{
+  background: #C2DED1;
+  color: #990000;
+  border: 2px solid #774360;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.rst-btn:hover{
+  background-color: #F6E3C5;
+}
+.heading{
+  font-family: 'Fascinate', cursive;
+  text-decoration: underline;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
